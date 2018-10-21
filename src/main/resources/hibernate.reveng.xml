@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC
+    "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN"
+    "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+ 
+<hibernate-reverse-engineering>
+	<type-mapping>
+	    <sql-type jdbc-type="SMALLINT" not-null="true" hibernate-type="Integer" />
+	    <sql-type jdbc-type="SMALLINT" not-null="false" hibernate-type="int" />
+	    <sql-type jdbc-type="NUMERIC" hibernate-type="BigDecimal" />
+	</type-mapping>
+</hibernate-reverse-engineering>
